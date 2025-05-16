@@ -86,9 +86,13 @@ Pada project ini kita berfokus menggunakan 2 fitur pada data yaitu _sub category
 Berdasarkan tabel diatas, dapat dilihat bahwa terdapat 252 jenis _sub category_ pada data dan 2663 jenis _salt compotition_ pada dataset yang menandakan data data pada dataset sangat beragam. Selanjutnya kita akan meliaht distribusi jumalah fitur terhadap jumlah data pada fitur.
 Berikut histogram distribusi Jumlah kategori per jumlah data pada fitur sub kategori.
 
+![Histogram Distribusi Jumlah Kategori per Jumlah Data](https://raw.githubusercontent.com/XMB234/Tugas-Machine-Learning-Terapan-Sistem-Rekomendasi/a0b1c7f224d354f17d1156a4c535fe056bd98707/Jumlah%20Ketegori%20per%20Jumlah%20Data.png)
+
 Dari histogram dapat dilihat bahwa terdapat 25 jenis _sub category_ yang memiliki 80 data dan ini merupakan jumlah data yang memiliki sub kategori terbanyak pada histogram. Selain itu, terdapat 25 jenis _sub category_ yang memiliki jumlah data dibawah 5 serta beberapa jenis sub kategori yang memiliki jumlah data mencapai ribuan.
 
 Selanjutnya, memahami distribusi jumlah jenis _salt compositon_ per jumlah data pada fitur _salt composition_.
+
+![Histogram Distribusi Jumlah Salt Commposition per Jumlah Data](https://raw.githubusercontent.com/XMB234/Tugas-Machine-Learning-Terapan-Sistem-Rekomendasi/55c7f8ba0317f3c3794ef76dec88de32fc238fa9/Jumlah%20Salt%20Compositon%20per%20Jumlah%20Data.png)
 
 Dari histogram dapat dilihat bahwa terdapat 242 jenis _salt composition_ yang memiliki 1 data dan ini merupakan jumlah data yang memiliki jenis _salt composition_ terbanyak pada histogram. Selain itu, terdapat beberapa jenis _salt composition_ yang memiliki jumlah data mencapai ribuan.
 
@@ -139,7 +143,7 @@ Dari tabel diatas dapat dilihat bahwa penerapan content based filtering dapat me
 ## Evaluation
 Pada model _content based filtering_, matrix evaluasi yang digunakan adalah _content based filtering precision_. Presisi adalah  metrik yang digunakan untuk mengukur sejauh mana model berhasil dalam mengklasifikasikan positif dengan benar di antara semua prediksi positif yang dihasilkan oleh model. Dalam konteks sistem rekomendasi, presisi mengukur sejauh mana item yang direkomendasikan relevan dengan preferensi atau kebutuhan pengguna. Presisi pada _content based filtering_, dihitung dengan membandingkan jumlah item yang relevan yang direkomendasikan dengan total jumlah item yang direkomendasikan. Dalam hal ini, item relevan adalah item yang benar-benar disukai atau diinginkan oleh pengguna. Metrik ini penting karena memberikan gambaran tentang kualitas rekomendasi yang diberikan oleh sistem, memastikan bahwa item yang dipilih tidak hanya banyak, tetapi juga relevan dengan pengguna. Presisi sangat berguna ketika fokus utama adalah memberikan rekomendasi yang akurat dan sesuai harapan. 
 
-
+![Presisi](https://raw.githubusercontent.com/XMB234/Tugas-Machine-Learning-Terapan-Sistem-Rekomendasi/69af212be3660b8863f22bd176711f568bca5c64/Presisi.jpg)
 
 Pada tabel hasil penerapan teknik _content based filtering_ dapat dilihat bahwa seluruhnya merupakan obat pada sub kategori dan komposisi yang sama. Hal ini memberikan arti bahwa nilai presisi dari rekomendasi dengan teknik _content based filtering_ adalah 100%.
 

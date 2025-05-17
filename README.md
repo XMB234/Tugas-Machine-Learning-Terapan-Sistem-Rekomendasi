@@ -98,6 +98,24 @@ Dari histogram dapat dilihat bahwa terdapat 242 jenis _salt composition_ yang me
 
 Kemudian, dilakukan pengecekan duplikat pada data yang memiliki product name, sub kategori, dan salt composition yang memiliki nilai yang sama. Hal ini dikarenakan terdapat kesamaan _product name, sub category, dan salt composition_ pada obat yang diproduksi pada beberapa manufaktur seperti pada tabel dibawah
 
+| product_name              | sub_category                              | salt_composition                                      | product_manufactured               |
+|--------------------------|-------------------------------------------|-------------------------------------------------------|------------------------------------|
+| Bioprim Syrup            | Trimethoprim And Similar Formulations     | Sulfamethoxazole (200mg) + Trimethoprim (40mg)        | Zydus Cadila                       |
+| Bioprim Syrup            | Trimethoprim And Similar Formulations     | Sulfamethoxazole (200mg) + Trimethoprim (40mg)        | BIO Ethicals Pharma Limited        |
+| Ringer Lactate Infusion  | Standard Solutions                         | Sodium Chloride (0.6gm) + Sodium Lactate (0.32...)    | Parenteral Drugs India Ltd         |
+| Ringer Lactate Infusion  | Standard Solutions                         | Sodium Chloride (0.600gm) + Sodium Lactate (0.3...)   | Baxter India Pvt Ltd               |
+| Ringer Lactate Infusion  | Standard Solutions                         | Sodium Chloride (0.600gm) + Sodium Lactate (0.3...)   | Albert David Ltd                   |
+| Lopramide 2mg Tablet     | Motility Inhibitors                        | Loperamide (2mg)                                      | Cadila Pharmaceuticals Ltd         |
+| Lopramide 2mg Tablet     | Motility Inhibitors                        | Loperamide (2mg)                                      | Makers Laboratories Ltd            |
+| Atropine 1% Eye Drop     | Mydriatics And Cyclopegics                 | Atropine (1% w/v)                                     | Jawa Pharmaceuticals Pvt Ltd       |
+| Atropine 1% Eye Drop     | Mydriatics And Cyclopegics                 | Atropine (1% w/v)                                     | Pharmatak Opthalmics Pvt Ltd       |
+| N S 0.9% Infusion        | Respiratory Stimulants                     | Sodium Chloride (0.9% w/v)                            | Albert David Ltd                   |
+| Normal Saline 0.9% Inf.  | Respiratory Stimulants                     | Sodium Chloride (0.9% w/v)                            | Claris Lifesciences Ltd            |
+| N S 0.9% Infusion        | Respiratory Stimulants                     | Sodium Chloride (0.9% w/v)                            | Baxter India Pvt Ltd               |
+| Immuno Rho 300mcg Inj.   | Polyvalent Immunoglobulins Intramuscular  | Anti Rh D Immunoglobulin (300mcg)                     | United Biotech Pvt Ltd             |
+| Immuno Rho 300mcg Inj.   | Polyvalent Immunoglobulins Intramuscular  | Anti Rh D Immunoglobulin (300mcg)                     | Trans Pharmaceuticals              |
+
+
 Berikut tabel jumlah data duplikat dan jenis data duplikat berdasarkan kombinasi fitur _sub category, salt composition, dan product name_.
 
 | No | Description                    | Count   |
